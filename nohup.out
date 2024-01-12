@@ -1,0 +1,43 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LogisticRegression from version 1.1.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator OneHotEncoder from version 1.1.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+Address already in use
+Port 7001 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'app'
+ * Debug mode: on
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LogisticRegression from version 1.1.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator OneHotEncoder from version 1.1.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7002
+ * Running on http://10.0.14.184:7002
+Press CTRL+C to quit
+ * Restarting with stat
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LogisticRegression from version 1.1.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator OneHotEncoder from version 1.1.1 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+ * Debugger is active!
+ * Debugger PIN: 977-651-610
+103.213.202.11 - - [11/Jan/2024 07:19:19] "GET / HTTP/1.1" 200 -
+103.213.202.11 - - [11/Jan/2024 07:19:20] "GET /favicon.ico HTTP/1.1" 404 -
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/base.py:493: FutureWarning: The feature names should match those that were passed during fit. Starting version 1.2, an error will be raised.
+Feature names must be in the same order as they were in fit.
+
+  warnings.warn(message, FutureWarning)
+103.213.202.11 - - [11/Jan/2024 07:19:58] "POST /predict HTTP/1.1" 200 -
+162.216.150.146 - - [11/Jan/2024 09:01:19] "GET / HTTP/1.1" 200 -
+162.243.143.12 - - [11/Jan/2024 15:46:15] code 400, message Bad request syntax ('MGLNDD_52.206.20.21_7002')
+162.243.143.12 - - [11/Jan/2024 15:46:15] "MGLNDD_52.206.20.21_7002" HTTPStatus.BAD_REQUEST -
+35.203.210.211 - - [12/Jan/2024 04:04:24] "GET / HTTP/1.1" 200 -
